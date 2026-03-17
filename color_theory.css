@@ -1,0 +1,76 @@
+body{
+    background-color:rgba(0,120,0,0.3);
+}
+.main{
+    flex-wrap:wrap;
+    display: flex;
+    justify-content: center;
+}
+.parent2{
+    display: flex;
+    margin:auto;
+    justify-content:center;
+}
+.parent{
+    height:200px;
+    width:200px;
+    border:2px dotted;
+    text-align: center;
+    margin:auto;
+}
+.child{
+    height:100px;
+    width:100px;
+    border:2px solid;
+    border-radius: 50%;
+    margin:auto;
+}
+h2{
+    text-align: center;
+    text-decoration: underline;
+    text-transform: capitalize;
+    font-style: italic;
+    font-size: 35px;
+    font-weight: 300;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:darkred;
+    text-shadow: 2px 2px 3px rgba(255, 0, 0, 0.5);
+}
+h3{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 200;
+    font-style: oblique;
+    font-size: medium;
+}
+#card1{
+    background-color: aqua;
+}
+#card2{
+    background-color: #0000ff;
+}
+#card3{
+    background-color: rgb(250,0,20);
+}
+#card4{
+    background-color: rgba(10,100,50,0.8);
+}
+#card5{
+    background-color: hsl(255, 20%, 30%);
+
+}
+#card6{
+    background-color:hsla(20, 75%, 75%, 1);
+
+}
+#card7{
+    background:linear-gradient(to left,green,purple) ;
+}
+#card8{
+    background: repeating-linear-gradient(gold,black 10px);
+}
+#card9{
+    background: radial-gradient(blueviolet,yellow);
+}
+#card10{
+    background:repeating-radial-gradient(pink,brown 10px)
+}
